@@ -1,0 +1,97 @@
+@import url();
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+body{
+    font-family:"Quicksand" ;
+    padding:0;
+    margin:0;
+}
+
+.logo{
+    padding: 60px;
+    font-size: 20px;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    background-color: #00a2c6;
+    top: 0;
+    position: sticky;
+    justify-content: center;
+}
+
+nav li:hover{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav li a:hover{
+    color: black;
+}
+
+footer{
+    color:white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+main{
+    margin: 0;
+    background-size: cover;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+aside figcaption{
+    text-align: center;
+}
+
+header{
+    display: inline;
+}
+
+.profile header{
+    text-align: center;
+}
+
+aside{
+    margin-top: 20px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 15px;
+    height: 600px;
+    width: 800px;
+    text-align: center;
+}
+
+article{
+    padding-top: 20px;  
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    box-shadow: 0px 0px 15px;
+    width: 800px;
+}
+
+footer{
+    padding: 15px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
